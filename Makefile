@@ -5,3 +5,6 @@ teensy_loader_cli: teensy_loader_cli.c
 
 clean:
 	rm -f teensy_loader_cli
+
+install:
+	cd $(HOME)/bin && ln -s $(CURDIR)/teensy_loader_cli
